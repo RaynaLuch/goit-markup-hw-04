@@ -398,11 +398,16 @@ img {
   fill: var(--color-pressed-state);
 }
 .advantage-box {
-  width: 264;
-  height: 112;
+  /*border: 1px solid var(--color-subtle-text);*/
   border-radius: 4px;
   background: var(--color-light);
+  padding: 24px 100px;
 }
-.advantage-icon {
-  margin: 24px 100px;
+
+.line::after {
+  background-color: #404bbf;
+  height: 4px;
+  width: 48px;
+  border-radius: 2px;
+  content: '';
 }
