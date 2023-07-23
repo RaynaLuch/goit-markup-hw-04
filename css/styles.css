@@ -191,7 +191,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  margin: 8px 0;
 }
 
 .advantage-box-text {
@@ -395,7 +395,14 @@ img {
 .castomers-box:hover,
 .castomers-box:focus {
   border-color: var(--color-pressed-state);
-  /* stroke: var(--color-pressed-state);*/
   fill: var(--color-pressed-state);
-  /* color: var(--color-pressed-state);*/
+}
+.advantage-box {
+  width: 264;
+  height: 112;
+  border-radius: 4px;
+  background: var(--color-light);
+}
+.advantage-icon {
+  margin: 24px 100px;
 }
