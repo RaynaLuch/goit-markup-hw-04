@@ -374,12 +374,6 @@ img {
 
 .castomers-item {
   flex-basis: calc((100% - 120px) / 6);
-  padding: 16px 32px;
-  border-radius: 4px;
-  border: 1px solid var(--color-subtle-text);
-  width: 168px;
-  height: 88px;
-  flex-shrink: 0;
 }
 .castomers-item:hover,
 .castomers-item:focus {
@@ -388,4 +382,20 @@ img {
 
 .castomers-section {
   padding: 120px 0;
+}
+.castomers-box {
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: 1px solid var(--color-subtle-text);
+  width: 168px;
+  height: 88px;
+  fill: var(--color-subtle-text);
+  flex-shrink: 0;
+}
+.castomers-box:hover,
+.castomers-box:focus {
+  border-color: var(--color-pressed-state);
+  /* stroke: var(--color-pressed-state);*/
+  fill: var(--color-pressed-state);
+  /* color: var(--color-pressed-state);*/
 }
