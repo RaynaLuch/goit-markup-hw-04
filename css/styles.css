@@ -257,6 +257,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  padding-bottom: 8px;
 }
 
 .team-card-subtitle {
@@ -410,4 +411,17 @@ img {
   width: 48px;
   border-radius: 2px;
   content: '';
+}
+.team-social-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-left: 16px;
+}
+.team-social-item {
+  fill: var(--color-primary-brand);
+}
+.team-social-item:hover,
+.team-social-item:focus {
+  fill: var(--color-pressed-state);
 }
