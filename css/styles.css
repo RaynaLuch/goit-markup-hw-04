@@ -410,13 +410,16 @@ img {
   height: 4px;
   width: 48px;
   border-radius: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
   content: '';
 }
 .team-social-set {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  padding-left: 16px;
+  justify-content: center;
 }
 .team-social-item {
   fill: var(--color-primary-brand);
