@@ -88,7 +88,6 @@ img {
 .header-link:hover,
 .header-link:focus {
   color: var(--color-pressed-state);
-  text-decoration: underline;
 }
 
 .header-address {
@@ -404,11 +403,14 @@ img {
   background: var(--color-light);
   padding: 24px 100px;
 }
-
+.line {
+  position: relative;
+  color: var(--color-pressed-state);
+}
 .line::after {
   background-color: #404bbf;
   height: 4px;
-  width: 48px;
+  width: 100%;
   border-radius: 2px;
   position: absolute;
   left: 0;
